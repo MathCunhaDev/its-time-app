@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer article {
+  display: flex;
+  flex-direction: column;
+}
+
+#passwordReset button,
+#register button,
+#access button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  margin: 0 0 0 5px;
+  text-align: center;
+  background: #4aa751;
+  font-family: 'Roboto', sans-serif;
+}
+
+#passwordReset button {
+  background: #a74a4a;
+}
+
+
+#register button {
+  background: #4a55a7;
+}

@@ -1,0 +1,12 @@
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 550px;
+  margin: 25px auto;
+}

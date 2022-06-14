@@ -1,0 +1,159 @@
+main {
+  width: 100%;  
+}
+
+#authForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#authFormTitle {
+  margin: 5px 0;
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+#authForm label {
+  margin: 10px 0 5px 0;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+#authForm input {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  margin: 5px 0;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #eee;
+  color: #333;
+}
+
+#authForm button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: white;
+  margin: 15px 0;
+  font-size: 14px;
+  text-align: center;
+  background: #4aa751;
+  font-family: 'Roboto', sans-serif;
+}
+
+#todoForm label {
+  
+}
+
+#todoForm input {
+  
+}
+
+#todoForm #submitTodoForm {
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#userContent {
+  margin-top: 20px;
+}
+
+#userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+#userContent button{
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: white;
+  margin: 5px 0;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#userContent .alternative {
+  background: #4aa751;
+}
+
+#userContent .alternative:nth-of-type(2) {
+  background: #4a55a7;
+}
+
+#userContent .danger{
+  background: #a74a4a;
+}
+
+#userImg {
+  width: 40px !important;
+} 
+
+#userName {
+  
+}
+#userName,
+#userEmail,
+#todoCount,
+#todoFormTitle {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#userName {
+  margin: 5px 0 0px 0;
+}
+
+#submitTodoForm {
+  background: #4aa751 !important;
+}
+
+.todoContainer,
+#todoList {
+  margin-top: 20px;
+}
+
+#todoList input,
+#todoForm input {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  margin: 5px 0;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #eee;
+  color: #333;
+}
+
+#todoForm label,
+#todoList label {
+  margin: 10px 0 5px 0;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+#ulTodoList li span {
+  margin-right: 10px;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+#ulTodoList button:first-of-type {
+  margin-right: 10px;
+}

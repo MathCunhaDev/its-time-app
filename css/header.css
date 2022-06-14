@@ -1,0 +1,12 @@
+h1 {
+  margin: 20px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+header img {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
